@@ -10,6 +10,7 @@
   text-decoration: none;
   text-transform: capitalize;
   transition: 0.2s linear;
+  text-decoration: none !important;
 }
 html {
   font-size: 62.5%;
@@ -21,7 +22,7 @@ html {
 section {
   padding: 5rem 9%;
 }
-.btn {
+.get_btn {
   margin-top: 1rem;
   display: inline-block;
   border: 0.2rem solid black;
@@ -32,7 +33,7 @@ section {
   padding: 1rem 3rem;
   border-radius: 40px;
 }
-.btn:hover {
+.get_btn:hover {
   background: black;
   color: white;
 }
@@ -140,7 +141,9 @@ i {
   margin-left: 2rem;
   font-size: 1.7rem;
   color: black;
+  text-decoration: none;
 }
+
 .header .navbar a:hover {
   color: green;
 }
@@ -332,11 +335,11 @@ form label.destination{
   color: #fff;
 }
 
-.packages .box-container .box:hover .btn {
+.packages .box-container .box:hover .get_btn {
   border-color: #fff;
 }
 
-.packages .box-container .box:hover .btn:hover {
+.packages .box-container .box:hover .get_btn:hover {
   background: #fff;
   color: #10221b;
 }
