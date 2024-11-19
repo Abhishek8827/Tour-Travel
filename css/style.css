@@ -543,3 +543,15 @@ form label.destination{
     padding: 10px;
   }
 }
+
+.agent_bg{
+  background-color: #f8f9fa !important;
+}
+
+.card-body a i{
+  font-size: 15px !important;
+  padding-right: 10px;
+}
+  .card-body a i:hover, i:active{
+    filter: drop-shadow(5px 5px 10px #38e821);
+  }
