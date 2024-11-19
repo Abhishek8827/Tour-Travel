@@ -297,6 +297,7 @@ form label.destination{
   background: linear-gradient(to right, #2545fc,
   #0de3eb, #100a2e, #eedd44);
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
 }
 
