@@ -70,7 +70,7 @@ form.addEventListener("submit",(e)=>{
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
-    const cars = document.getElementById('cars').value;
+    const destination = document.getElementById('destination').value;
 
     // console.log(name,email,phone);
 
@@ -78,7 +78,7 @@ form.addEventListener("submit",(e)=>{
         email:email,
         name:name,
         phone:phone,
-        cars:cars
+        destination:destination
     })
     alert.style.display="block"
 
