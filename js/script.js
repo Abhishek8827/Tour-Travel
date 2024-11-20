@@ -75,8 +75,8 @@ form.addEventListener("submit",(e)=>{
     // console.log(name,email,phone);
 
     ref.push({
-        name:name,
         email:email,
+        name:name,
         phone:phone,
         cars:cars
     })
