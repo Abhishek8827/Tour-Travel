@@ -8,4 +8,4 @@ Here I used <b>Html, Css & javascript</b> To create the front end part of the we
 
 The HomePage of the Website is with<b> index.html</b> file.
   
-You can see prewiev at <a href="https://abhishek8827.github.io/Tour-Travel/" target="_blank"> Github Page</a>
+You can see prewiev at <a href="https://abhishek8827.github.io/Tour-Travel/" target="_parent"> Github Page</a>
