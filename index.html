@@ -35,8 +35,8 @@
             <div id="nav-close" class="fas fa-times"></div>
             <a href="#home">home</a>
             <a href="#category">Adventures</a>
-            <a href="#packages">Book</a>
-            <a href="login/index.html" target="_parent">Login</a>
+            <a href="#book_form">Book</a>
+            <a href="login/index.html" target="_parent">Contact</a>
         </nav>
         <div class="icons">
             <div id="menu-btn" class="fas fa-bars"></div> 
@@ -287,13 +287,15 @@
           
         </div>
         <div class="contact-form">
-            <form id="book_form">
-          <div class="input-fields">
-            
+          <form action="https://api.web3forms.com/submit" method="POST" id="book_form">
+            <input type="hidden" name="access_key" value="74f6bf6e-a44f-4047-a199-49d6f70edd3c">
+            <div class="input-fields">
+              
+              <input type="hidden" name="access_key" value="74f6bf6e-a44f-4047-a199-49d6f70edd3c">
             <input type="text" class="input"  placeholder="Name" name="name" id="name" required>
-            <input type="email" class="input"  placeholder="Email Address" name="email" id="email" pattern=".+@gmail\.com" required>
+            <input type="email" class="input"  placeholder="Email Address" name="email" id="email" required>
             <input type="phone" class="input"  placeholder="Phone" name="phone" id="phone" required>
-
+<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
             <label for="destination" class="destination">Choose Destination Point</label>
 
             <select name="Destination" id="destination" class="input" required>
@@ -306,7 +308,7 @@
               <option value="select" selected>Select</option>
             </select> 
             
-            <div class="btn1"><button type="submit">send <i class="uil uil-message"></i></div>
+            <div class="btn1"><button type="submit">Send <i class="uil uil-message"></i></div>
           </div>
 
           </form>
